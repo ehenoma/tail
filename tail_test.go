@@ -17,8 +17,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/nxadm/tail/ratelimiter"
-	"github.com/nxadm/tail/watch"
+	"github.com/ehenoma/tail/ratelimiter"
+	"github.com/ehenoma/tail/watch"
 )
 
 func TestTailFile(t *testing.T) {

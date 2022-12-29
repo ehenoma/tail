@@ -11,9 +11,9 @@ import (
 	"sync"
 	"syscall"
 
-	"github.com/nxadm/tail/util"
+	"github.com/ehenoma/tail/util"
 
-    "github.com/fsnotify/fsnotify"
+	"github.com/fsnotify/fsnotify"
 )
 
 type InotifyTracker struct {
